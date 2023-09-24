@@ -5,8 +5,7 @@ metadata:
 spec:
   selector:
     app: kube-service-a
-  type: NodePort
   ports:
     - protocol: TCP
       port: 80
-      targetPort: 3000˚
+      targetPort: 3000

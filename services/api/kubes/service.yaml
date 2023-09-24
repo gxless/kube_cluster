@@ -3,7 +3,6 @@ kind: Service
 metadata:
   name: kube-api-service
 spec:
-  type: NodePort
   selector:
     app: kube-api
   ports:
